@@ -6,31 +6,43 @@ Chapter 7 LED Sample program for micro:bit book
 ---
 * microbit-led1.hex
 ```
-LED�_���E����
+LED点灯・消灯
 ```
 * microbit-led2.hex
 ```
-LED�_�Ł@A�{�^���œ_�ŊԊu��ω�
+LED点滅　Aボタンで点滅間隔を変化
 ```
 * microbit-led3.hex
 ```
-�t���J���[LED�_���E����
+フルカラーLED点灯・消灯
 ```
 * microbit-led4.hex
 ```
-�t���J���[LED���F���� �V�F�����Ɍ��炷
+フルカラーLED多色発光 ７色を順に光らす
+```
+* microbit-led5.hex
+```
+拡張RGBLEDブロックを使ってRGBLEDを７色を順に光らす
+```
+* microbit-led6.hex
+```
+２つのmicro:bitの通信により、相手のLEDを光らす
+```
+* microbit-led7.hex
+```
+多くのmicrro:bit+フルカラーLED拡張ボードの通信により７色を光らす
 ```
 * microbit-neopixel.hex
 ```
-Neopixel LED 4�̃t���J���[LED��A���I�ɔ���
+Neopixel LED 4個のフルカラーLEDを連続的に発光
 ```
 * microbit-rainbow.hex
 ```
-24 �� NeoPixel LED ����̂悤�ɘA���I�ɔ���
+24 個の NeoPixel LED を虹のように連続的に発光
 ```
 * neopixel.py
 ```
-Neopixel LED 4�̃t���J���[LED��A���I�ɔ��� by MicroPython
+Neopixel LED 4個のフルカラーLEDを連続的に発光 by MicroPython
 ```
 ## License
 MIT
